@@ -1,7 +1,6 @@
 ---
 - name: Cisco test playbook
   hosts: all
-
   tasks:
     - name: run show version on the routers
       ios_command:
